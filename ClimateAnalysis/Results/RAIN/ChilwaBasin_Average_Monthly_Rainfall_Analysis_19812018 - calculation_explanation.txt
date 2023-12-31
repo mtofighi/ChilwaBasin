@@ -1,0 +1,29 @@
+Calculation Explanation:
+
+1. Yearly Statistics:
+   - Calculate the average monthly rainfall for each year.
+   - Categorize years as Wet, Dry, or Normal based on quantiles (25th and 75th percentiles).
+
+2. Monthly Statistics by Category:
+   - Group data by Category (Wet, Dry, Normal) and Month.
+   - Calculate the average monthly rainfall for each category and month.
+
+3. Most Dry and Wet Year Data:
+   - Identify the most dry and wet years based on category.
+   - Extract the monthly data for the most dry and wet years.
+   - Create an Excel file with separate sheets for each type of data.
+   
+   The yearly average rainfall was calculated for each year. 
+Years were then categorized as 'Wet', 'Dry', or 'Normal' based on whether 
+the yearly average was in the top 25%, bottom 25%, or between these percentiles.
+Monthly statistics were then calculated for each category, representing the 
+mean of the average monthly rainfall.
+
+
+In this study, we conducted a comprehensive analysis of monthly rainfall data to characterize and categorize yearly precipitation patterns. The dataset, encompassing multiple weather stations, provided a rich source of information. Our analysis began by extracting relevant columns, focusing on the 'Date' and 'Average' rainfall values. To establish a temporal context, we derived the year from the 'Date' column, enabling a yearly aggregation of rainfall statistics.
+
+Categorization of years into wet, dry, or normal conditions was a pivotal aspect of our investigation. The yearly average rainfall served as the basis for this classification. Employing quantiles, specifically the 25th and 75th percentiles, we delineated thresholds to distinguish between wetter and drier years. The calculated categories were then merged back into the monthly dataset, allowing for a detailed examination of monthly variations within each category.
+
+Subsequently, we extracted the month from the 'Date' column to facilitate a temporal grouping of data. Our analysis culminated in the computation of average monthly rainfall values for each category and month, providing valuable insights into seasonal patterns. We meticulously ordered the monthly results chronologically, facilitating a clear interpretation of the temporal dynamics.
+
+As a supplementary investigation, we identified the most dry and wet years based on our established categories. This facilitated a focused examination of the monthly data corresponding to these extreme conditions. To disseminate our findings comprehensively, we organized the results into an Excel file with distinct sheets for yearly statistics, monthly statistics by category, and the monthly data for the most dry and wet years. Additionally, we prepared a detailed explanation of our methodology, providing transparency and clarity regarding the computational processes involved in our analysis. This documentation is crucial for reproducibility and serves as a valuable reference for readers and researchers interested in the intricacies of our rainfall analysis.

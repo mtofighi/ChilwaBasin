@@ -1,0 +1,14 @@
+Calculation Explanation:
+
+1. Yearly Statistics:
+   - Calculate the average monthly temperature for each year.
+   - Categorize years as Warm, Cold, or Normal based on quantiles (25th and 75th percentiles).
+
+2. Monthly Statistics by Category:
+   - Group data by Category (Warm, Cold, Normal) and Month.
+   - Calculate the average monthly temperature for each category and month.
+
+3. Most Warm and Cold Year Data:
+   - Identify the most warm and cold years based on category.
+   - Extract the monthly data for the most warm and cold years.
+   - Create an Excel file with separate sheets for each type of data.
